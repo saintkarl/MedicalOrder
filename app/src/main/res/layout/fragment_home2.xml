@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/circleButton"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/border_bottom_layout"
+        android:layout_weight=".2"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".4">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kh_than_thiet"
+                android:layout_centerInParent="true"
+                android:padding="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:paddingRight="3dp"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingStart="3dp">
+
+            <TextView
+                android:id="@+id/tvTimelineDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Chuẩn bị đầu ngày "
+                android:textColor="@color/white"
+                style="@android:style/TextAppearance.Small"
+                android:layout_below="@+id/tvTimeline"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/tvTimeline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loyalty_program"
+                android:textColor="@color/textSecondary"
+                android:gravity="start"
+                android:textSize="@dimen/title"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/complBtnButton"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/border_bottom_layout"
+        android:layout_weight=".2"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".4">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/khieu_nai"
+                android:layout_centerInParent="true"
+                android:padding="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:paddingRight="3dp"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingStart="3dp">
+
+            <TextView
+                android:id="@+id/tvCompTimelineDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Chuẩn bị đầu ngày "
+                android:textColor="@color/white"
+                style="@android:style/TextAppearance.Small"
+                android:layout_below="@+id/tvCompTimeline"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/tvCompTimeline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_complaint"
+                android:textColor="@color/textSecondary"
+                android:gravity="start"
+                android:textSize="@dimen/title"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/paymentButton"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/border_bottom_layout"
+        android:layout_weight=".2"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".4">
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@drawable/cghl"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:padding="10dp"-->
+                <!--android:alpha="0.5"/>-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:paddingRight="3dp"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingStart="3dp">
+
+            <TextView
+                android:id="@+id/tvPaymentTimelineDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Chuẩn bị đầu ngày "
+                android:textColor="@color/white"
+                style="@android:style/TextAppearance.Small"
+                android:layout_below="@+id/tvPaymentTimeline"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/tvPaymentTimeline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_payment"
+                android:textColor="@color/textSecondary"
+                android:gravity="start"
+                android:textSize="@dimen/title"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/performanceButton"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/border_bottom_layout"
+        android:layout_weight=".2"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".4">
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@drawable/sale_perf"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:padding="10dp"-->
+                <!--android:alpha="0.5"/>-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:paddingRight="3dp"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingStart="3dp">
+
+            <TextView
+                android:id="@+id/tvPerformanceTimelineDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Chuẩn bị đầu ngày "
+                android:textColor="@color/white"
+                style="@android:style/TextAppearance.Small"
+                android:layout_below="@+id/tvPerformanceTimeline"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/tvPerformanceTimeline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sales_performance"
+                android:textColor="@color/textSecondary"
+                android:gravity="start"
+                android:textSize="@dimen/title"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/replyButton"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/border_bottom_layout"
+        android:layout_weight=".2"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".4">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kh_phan_hoi"
+                android:layout_centerInParent="true"
+                android:padding="10dp"
+                android:alpha="0.5"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:paddingRight="3dp"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingStart="3dp">
+
+            <TextView
+                android:id="@+id/tvReplyTimelineDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Chuẩn bị đầu ngày "
+                android:textColor="@color/white"
+                style="@android:style/TextAppearance.Small"
+                android:layout_below="@+id/tvReplyTimeline"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/tvReplyTimeline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/customer_reply"
+                android:textColor="@color/textSecondary"
+                android:gravity="start"
+                android:textSize="@dimen/title"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

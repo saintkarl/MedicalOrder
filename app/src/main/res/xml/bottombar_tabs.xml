@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/ic_add_shopping_cart"
+        id="@+id/tab_favorites"
+        title="@string/giftExchange" />
+    <tab
+        icon="@drawable/ic_question_answer_24"
+        id="@+id/tab_question"
+        title="@string/question" />
+    <tab
+        icon="@drawable/ic_mood_bad_24"
+        id="@+id/tab_friends"
+        title="@string/complain" />
+</tabs>

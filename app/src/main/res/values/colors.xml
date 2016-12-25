@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="colorLightPrimary">#BBDEFB</color>
+    <color name="colorTextIcons">#FFFFFF</color>
+
+
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="deviderColor">#BDBDBD</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#E0E0E0</color>
+    <color name="grey_300">#FFD2D2D2</color>
+    <color name="red_500">#F44336</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="accent">#FFFFFF</color>
+    <color name="primary_kanban">#00AEEF</color>
+    <color name="google_white">#ffffff</color>
+
+    <!-- Material Light_Blue Primary -->
+    <color name="color_light_blue_500">#0277bd</color>
+    <color name="color_light_blue_100">#b9e1f8</color>
+    <color name="color_light_blue_700">#1687ca</color>
+
+    <!-- General color -->
+    <color name="warning">#FF9800</color>
+    <color name="button_lg_disabled" >#80C6EA</color>
+    <color name="button_lg_enabled" >#008DD4</color>
+    <color name="register_edit_bg">#ECECEC</color>
+    <color name="pig_divider">#85c2eb</color>
+    <color name="group1">#252525</color>
+    <color name="view_detail_color">#929292</color>
+    <color name="view_all_notify">#13577b</color>
+    <color name="group3">#018ad2</color>
+    <color name="group3_list">#ececec</color>
+    <color name="bottombar_bg">#212f36</color>
+    <color name="point_bg">#FEFCE0</color>
+    <color name="gift_home_bg">#91E4FB</color>
+    <color name="point_color">#D68227</color>
 </resources>

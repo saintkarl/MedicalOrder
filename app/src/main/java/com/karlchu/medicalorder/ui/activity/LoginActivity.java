@@ -235,11 +235,11 @@ public class LoginActivity extends AppCompatActivity {
     }
 
 
-    @OnClick(R.id.btn_register)
-    public void registerProgram() {
-        AlertDialog dialog = initRegisterDialog();
-        dialog.show();
-    }
+//    @OnClick(R.id.btn_register)
+//    public void registerProgram() {
+//        AlertDialog dialog = initRegisterDialog();
+//        dialog.show();
+//    }
 
     private AlertDialog initRegisterDialog() {
         AlertDialog.Builder builder;
@@ -433,12 +433,12 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-    @OnClick(R.id.btn_forgetPassword)
-    public void showForgetPassword() {
-        Intent intent = new Intent(this, ForgetPasswordFragment.class);
-        startActivity(intent);
-
-    }
+//    @OnClick(R.id.btn_forgetPassword)
+//    public void showForgetPassword() {
+//        Intent intent = new Intent(this, ForgetPasswordFragment.class);
+//        startActivity(intent);
+//
+//    }
 
     private void startHomeActivity() {
         Intent intent = new Intent(this, MainActivity.class);

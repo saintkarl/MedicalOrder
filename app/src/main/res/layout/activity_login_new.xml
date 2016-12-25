@@ -3,12 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_login">
+    android:background="@drawable/bg_login_5">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/btn_forgetPassword"
         android:layout_alignParentTop="true">
 
         <LinearLayout
@@ -32,11 +31,11 @@
 
             <!--</RelativeLayout>-->
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="0.9"
-                android:orientation="vertical">
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="0.9"-->
+                <!--android:orientation="vertical">-->
 
                 <TextView
                     android:layout_width="match_parent"
@@ -118,35 +117,35 @@
                     android:textSize="@dimen/caption"
                     android:textColor="@color/white"/>
 
-            </LinearLayout>
+            <!--</LinearLayout>-->
 
         </LinearLayout>
 
     </ScrollView>
 
 
-    <TextView
-        android:id="@+id/btn_forgetPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:gravity="center"
-        android:text="@string/forgotPassword"
-        android:textColor="@color/white"
-        android:layout_above="@+id/btn_register"
-        android:paddingBottom="8dp"/>
+    <!--<TextView-->
+        <!--android:id="@+id/btn_forgetPassword"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/forgotPassword"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:layout_above="@+id/btn_register"-->
+        <!--android:paddingBottom="8dp"/>-->
 
-    <TextView
-        android:id="@+id/btn_register"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/register"
-        android:padding="16dp"
-        android:gravity="center"
-        android:background="@color/primary_kanban"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:textSize="@dimen/title"
-        android:layout_alignParentBottom="true" />
+    <!--<TextView-->
+        <!--android:id="@+id/btn_register"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/register"-->
+        <!--android:padding="16dp"-->
+        <!--android:gravity="center"-->
+        <!--android:background="@color/primary_kanban"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="@dimen/title"-->
+        <!--android:layout_alignParentBottom="true" />-->
 
 </RelativeLayout>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FCV RRM</string>
+    <string name="app_name">Medical Order</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -51,9 +51,9 @@
     <string name="question" formatted="false">Q &amp; A</string>
     <string name="complain">Complaint</string>
 
-    <string name="username">User name</string>
+    <string name="username">Username</string>
     <string name="password">Password</string>
-    <string name="login_error_msg_empty_username">Please input user name</string>
+    <string name="login_error_msg_empty_username">Please input username</string>
     <string name="login_error_msg_empty_password">Please input password</string>
     <string name="login_failed_msg">Username/Password incorrect!</string>
     <string name="login_wrongversion_msg">App version is not supported!</string>
@@ -165,7 +165,7 @@
     <string name="outlet_code">Outlet code</string>
     <string name="outlet_name">Outlet name</string>
     <string name="codeGift">Code exchange: %1$s</string>
-    <string name="forgetPassword">Forget password</string>
+    <string name="forgotPassword">Forgot password</string>
     <string name="change_password">Change password</string>
     <string name="noData">Data Not Available</string>
     <string name="change_password_fail">Change password fail</string>

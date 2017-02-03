@@ -37,10 +37,12 @@
     <string name="sales_list">Balance sales by group</string>
     <string name="review_list">Review List</string>
     <string name="loyalty_program">Retailer loyalty</string>
+    <string name="place_order">Place Order</string>
 
     <string name="home_khtt">Retailer loyalty</string>
     <string name="home_perfect">Perfect store</string>
     <string name="home_complaint">Complaints</string>
+    <string name="order_history">Order History</string>
     <string name="home_payment">FCV’s Payments</string>
 
     <!-- Chuc nang KHTT -->

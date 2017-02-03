@@ -20,7 +20,7 @@
         android:layout_gravity="center"
         app:civ_border_width="2dp"
         app:civ_border_color="#FF000000"
-        android:src="@drawable/cghl" />
+        android:src="@drawable/ic_home_store" />
 
     <TextView
         android:id="@+id/user_display_name"

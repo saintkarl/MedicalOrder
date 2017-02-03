@@ -1,5 +1,6 @@
 package com.karlchu.medicalorder.core.utils;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -9,6 +10,8 @@ import android.content.DialogInterface;
  * Created by hieu on 6/30/2016.
  */
 public class DialogBuilder {
+    public static Activity context;
+
     public static Dialog buildConfirmDlg(Context context, String title, String msg, final Runnable onPositiveCallback, final Runnable onNegativeCallback, boolean cancelable) {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
 

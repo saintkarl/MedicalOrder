@@ -1,13 +1,11 @@
 package com.karlchu.medicalorder.ui.activity;
 
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.karlchu.medicalorder.R;
-import com.karlchu.medicalorder.core.A;
-import com.karlchu.medicalorder.ui.adapter.AppConstant;
-import com.karlchu.medicalorder.ui.utils.UserUtils;
 
 public class MainActivity extends BaseDrawerActivity {
 
@@ -17,9 +15,9 @@ public class MainActivity extends BaseDrawerActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String role = UserUtils.getUserRole();
-//        replaceFragmentContent(DashBoardFragment.class);
-
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.content_frame,
+                new HomeFragment()).addToBackStack(null).commitAllowingStateLoss();
     }
 
     @Override

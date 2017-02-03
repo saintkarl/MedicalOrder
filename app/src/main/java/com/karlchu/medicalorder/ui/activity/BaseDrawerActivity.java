@@ -213,12 +213,9 @@ public class BaseDrawerActivity extends AppCompatActivity implements NavigationV
 
         } else if (id == R.id.action_change_password) {
             Fragment fragment = getSupportFragmentManager().findFragmentById(R.id.content_frame);
-//            if (!(fragment instanceof ChangePasswordFragment)) {
-//                if(fragment instanceof PersonalInfoFragment) {
-//                    reSetupToolbar();
-//                }
-//                replaceFragmentContent(new ChangePasswordFragment());
-//            }
+            if (!(fragment instanceof ChangePasswordFragment)) {
+                replaceFragmentContent(new ChangePasswordFragment());
+            }
         } else if(id == R.id.action_logout) {
             AlertDialog.Builder builder = new AlertDialog.Builder(BaseDrawerActivity.this);
             builder.setTitle(getString(R.string.log_out));
